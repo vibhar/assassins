@@ -15,7 +15,7 @@ class AssassinsManager():
             print "Assassin already exists in the list"
         else:
             self.assassins.append(assassin)
-        return
+        return None
 
 
     def __addKillCounter(self):
